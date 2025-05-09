@@ -27,6 +27,8 @@ using namespace std;
 
 */
 
+// 풀이 : A와 B를 문자열 길이의 절반으로 설정(예: "AAABBB")하고 가장 오른쪽에 있는 A를 한칸으로 옮길 때마다 pair이 1씩 줄어드는 것을 이용. 
+
 int N, K;
 string S;
 
