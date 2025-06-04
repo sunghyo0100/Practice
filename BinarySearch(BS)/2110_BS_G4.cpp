@@ -55,7 +55,7 @@ vector<int> wifi;
 
 bool canPutWifiRouters(ll dist) {
     int idx = 0;
-    int cnt = 1;
+    int cnt = 1; 
 
     for (int i = 1; i < N; i++) {
         if (wifi[i] - wifi[idx] >= dist) {
